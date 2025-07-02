@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f8fb;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header .tagline {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+}
+
+h2 {
+  color: #003366;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.product-card button {
+  background: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+footer {
+  background: #002244;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer .social a {
+  margin: 0 10px;
+  color: #ccc;
+  text-decoration: none;
+}
